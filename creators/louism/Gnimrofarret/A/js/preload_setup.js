@@ -9,9 +9,9 @@ function setup() {
 	scene['hdri'] = loadImage('assets/image/DiExposureSky.jpg', loaded);
 	scene['texture0'] = loadImage('assets/image/coast_land_rocks_01_cnd_4k.png', loaded);
 	scene['texture1'] = loadImage('assets/image/rocky_trail_02_cnd_4k.png', loaded);
-	soundA = loadSound(['assets/audio/AmbienceX0A_.m4a'], loaded);
-	soundB = loadSound(['assets/audio/AmbienceX0B_.m4a'], loaded);
-	soundC = loadSound(['assets/audio/EngineFX.m4a'], loaded);
+	soundA = loadSound(['assets/audio/AmbienceX0A_.wav', 'assets/audio/AmbienceX0A_.m4a'], loaded);
+	soundB = loadSound(['assets/audio/AmbienceX0B_.wav', 'assets/audio/AmbienceX0B_.m4a'], loaded);
+	soundC = loadSound(['assets/audio/EngineFX.wav', 'assets/audio/EngineFX.m4a'], loaded);
 
 	createCanvas(windowWidth, windowHeight);
 	pixelDensity(1);
