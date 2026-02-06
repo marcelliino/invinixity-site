@@ -6,6 +6,10 @@ function preload() {
 function setup() {
 
     createCanvas(windowWidth, windowHeight, WEBGL);
+    let gl = this._renderer.GL;
+    gl.enable(gl.CULL_FACE);
+    gl.cullFace(gl.BACK);
+    
     pixelDensity(1);
     noSmooth();
     angleMode(DEGREES);
