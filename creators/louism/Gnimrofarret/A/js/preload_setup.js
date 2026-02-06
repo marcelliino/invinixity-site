@@ -1,5 +1,5 @@
 function preload() {
-	scene['render3D'] = loadShader('_A/shader/vert.glsl', '_A/shader/frag.glsl');
+	scene['render3D'] = loadShader('A/shader/vert.glsl', 'A/shader/frag.glsl');
 }
 
 function setup() {
