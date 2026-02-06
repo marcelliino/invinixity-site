@@ -65,7 +65,7 @@ function draw() {
 
     scene.graphics.background(125);
     
-    orbitControl();
+    // orbitControl();
 
     perspective(atan(height / 2 / 1024) / 0.5, width / height, 256);
 
