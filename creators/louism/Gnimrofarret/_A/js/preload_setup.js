@@ -5,7 +5,7 @@ function preload() {
 function setup() {
 	broadcastChannel = new BroadcastChannel('channel_01');
 
-	scene['video'] = createVideo('assets/video/sky360.m4v', videoLoaded);
+	scene['video'] = createVideo('assets/video/sky360.mp4', videoLoaded);
 	scene['hdri'] = loadImage('assets/image/DiExposureSky.jpg', loaded);
 	scene['texture0'] = loadImage('assets/image/coast_land_rocks_01_cnd_4k.png', loaded);
 	scene['texture1'] = loadImage('assets/image/rocky_trail_02_cnd_4k.png', loaded);
