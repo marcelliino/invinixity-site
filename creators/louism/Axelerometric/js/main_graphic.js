@@ -69,6 +69,7 @@ function draw() {
 
     perspective(atan(height / 2 / 1024) / 0.5, width / height, 256);
 
+    /*
     push();
     strokeWeight(1);
     stroke(55);
@@ -79,7 +80,7 @@ function draw() {
     scale(s, -s, s);
     model(scene.object3D);
 
-    pop();
+    pop(); */
 
     //    imageMode(CENTER);
     //    image(scene.graphics, 0, 0, width, height);
